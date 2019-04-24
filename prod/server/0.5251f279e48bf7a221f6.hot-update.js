@@ -1,0 +1,1 @@
+exports.id=0,exports.modules={"./src/server/index.js":function(e,r,s){"use strict";s.r(r);var t=s("http"),c=s.n(t),u=s("./src/server/server.js"),v=c.a.createServer(u.default),n=u.default;v.listen(3e3),e.hot.accept("./src/server/server.js",function(e){u=s("./src/server/server.js"),v.removeListener("request",n),v.on("request",u.default),n=u.default})}};
